@@ -1,14 +1,9 @@
 {
-  "name": "3d-logo",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "name": "clamped-rotation",
+  "version": "1.0.1",
+  "description": "Object rotation within a clamped range.",
+  "scripts": {},
   "dependencies": {
-    "three.js": "^0.77.1"
+    "three": "^0.98.0"
   }
 }

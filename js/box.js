@@ -5,8 +5,10 @@ for (var i = 0; i <= planes; i++)
 
 var material = new THREE.MeshBasicMaterial({color: 0xEEEEEE, vertexColors: THREE.FaceColors});
 var box = new THREE.Mesh(geometry, material);
-var line = new THREE.MeshBasicMaterial({color: 0x000000});
-var edges = new THREE.LineSegments(geometry, line);
+
+var lineMaterial = new THREE.MeshBasicMaterial({color: 0x000000});
+var edges = new THREE.LineSegments(geometry, lineMaterial);
 
 box.add(edges);
+
 scene.add(box);
