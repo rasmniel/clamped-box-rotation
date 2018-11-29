@@ -33,8 +33,8 @@ var geometry = new THREE.TextGeometry('N', {
 
 // Solid text
 var materials = [
-    new THREE.MeshBasicMaterial({color: 0xFFFFFF}),
-    new THREE.MeshBasicMaterial({color: 0x000000})
+    new THREE.MeshBasicMaterial({color: 0x000000}),
+    new THREE.MeshBasicMaterial({color: 0xDDDDDD})
 ];
 var text = new THREE.Mesh(geometry, materials);
 
