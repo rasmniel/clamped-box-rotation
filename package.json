@@ -4,6 +4,6 @@
   "description": "Object rotation within a clamped range.",
   "scripts": {},
   "dependencies": {
-    "three": "^0.98.0"
+    "three": "^0.125.0"
   }
 }
